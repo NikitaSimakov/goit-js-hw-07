@@ -16,6 +16,3 @@ const markup = galleryItems.reduce((acc, { preview, original, description }) =>
 gallery.insertAdjacentHTML('beforeend', markup);
 
   new SimpleLightbox ('.gallery a', { captionsData: 'alt', captionDelay: 300 });
-const instance = basicLightbox.create(`
-<img src="${link}" width="800" height="600">`)
-instance.show();
